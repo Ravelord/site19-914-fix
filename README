@@ -1,0 +1,10 @@
+Fix for SCP-914, made by Xy for GFL Breach. Released to the public under the terms of the MIT License.
+This is only intended to work on gm_site19, published by the user kammorne on the GMOD workshop.
+
+This script is not maintained what so ever, if it suddenly breaks, I may update it, but I probably won't.
+
+If something doesn't work, make an issue, but before doing so:
+
+ - Check to make sure the map you're using the June, 24th 2017 version
+ - If it is not, make sure you have replaced *216 and *221 with the proper values
+ - Check to make sure the gamemode/any addon you are using doesn't return improperly in the PlayerUse hook. You can test this by adding print('Hello!') to the player use hook in the 914fix.lua file
