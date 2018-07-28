@@ -8,3 +8,5 @@ If something doesn't work, make an issue, but before doing so:
  - Check to make sure the map you're using the June, 24th 2017 version
  - If it is not, make sure you have replaced *216 and *221 with the proper values
  - Check to make sure the gamemode/any addon you are using doesn't return improperly in the PlayerUse hook. You can test this by adding print('Hello!') to the player use hook in the 914fix.lua file
+
+To install this: Just clone the repository into your server's addon folder.
